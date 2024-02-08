@@ -1,30 +1,3 @@
-///////////////////////////////////////////////////////////
-// EXERCISE #2: Accordion Component (v2)
-///////////////////////////////////////////////////////////
-
-// Let's now take everything that we learned
-// throughout this section in order to make the accordion
-// that we started building earlier a bit better
-// and a bit more real world.
-// And here it is.
-// So just like before, when I click on one of the items,
-// then it'll open, but when I click on another one,
-// then only this one stays open
-// and all the other ones are closed.
-// So basically, what this means is that now each of the items
-// no longer controls whether they are open or not.
-// Instead, it is now the accordion
-// who knows which of the items are opened,
-// and then only that item, basically, is allowed to be open.
-// So for example, if item number three is the one
-// that's currently opened, then number one, two, and 23
-// need to be closed.
-// So again, all of these items here need to know
-// which is the currently open item, and so that means
-// that we now need to move our state from the item
-// onto here, the accordion.
-// Now, I still have the code here from part one
-
 import { useState } from "react";
 import "./styles.css";
 
